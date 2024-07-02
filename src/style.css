@@ -1,0 +1,63 @@
+body {
+  background-color: #000000;  /* Set background color */
+}
+.movie-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Optional: Distribute movies evenly */
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+    gap: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.movie-list{
+    padding: 40px;
+    margin: 40px;
+    border-color: #ffffff;
+    border: 2px solid #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .movie{
+    padding: 20px;
+    
+    box-shadow: #ffffff;
+    border: 2px solid #ffffff; 
+  }
+
+  .space{
+    padding-right:800px;
+  }
+
+  .movies{
+    size: 40px;
+    color: #ffffff;
+  }
+
+
+
+.search{
+  background-image: "url('./movie1.png')" ;
+  color: #ffffff;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-input {
+  color: #ffffff;
+  width: 300px; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.App{
+  color: #ffffff;
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
